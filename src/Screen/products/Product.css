@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+.big-container1{
+    width:100%;
+    height:1350px;
+    /* background-color: aqua; */
+}
+.Pnavbar{
+    width:100%;
+    height: 40px;
+    display:flex;
+    box-shadow: 0 0 1px #747474;
+    padding: 0px 9px 0 15px;
+    gap:40px;
+}
+.Pbold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Pnavitems{
+    font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 14px;
+     font-weight: 500;
+     cursor:pointer;
+     &:hover{
+        text-decoration: underline;
+        text-decoration-color:#febd69;
+        text-decoration-thickness:1px;
+    }
+}
+
+.Pmain-content{
+    display: flex;
+    width:100%;
+    padding:16px 8px;
+}
+.Psidebar{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width:22%;
+    height:1000px;
+    border-right:1px solid #ddd;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.category{
+    font-weight: 600;
+}
+.smallfont{
+    font-size:15px;
+}
+.boldContent{
+   font-weight:550;
+   display: flex;
+   flex-direction: column;
+   gap:14px;
+}
+.stars{
+    font-size:25px;
+    color:rgb(248, 212, 4);
+}
+.up{
+    font-size:14px;
+    color:black;
+    position: relative;
+    top:-7px;
+}
+.PRightContent{
+    width:82%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px;
+}
+.showBar{
+    width:99%;
+    height:35px;
+    border:1px solid #ddd;  
+    
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+    font-size:14px;
+    margin-bottom: 30px;
+}
+.Mac{
+    font-weight: 600;
+    color: orange;
+    margin-left:6px;
+}
+.right-main-content{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:60px;
+    background-color: white;
+}
+
+
+.Pimage-Bigcontainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color:rgb(247,247,247);
+   width:100%;
+   height:300px;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(247,247,247);
+    width:300px;
+    height:240px;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    gap:15px;
+
+}
+.rupees{
+   display: flex; 
+   justify-content: space-between; 
+
+}
+.Pbtn{
+    background-color: rgb(255, 145, 0);
+    height:30px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 2px;
+    cursor:pointer;
+    &:hover{
+        background-color: rgb(196, 118, 16);
+    }
+}
